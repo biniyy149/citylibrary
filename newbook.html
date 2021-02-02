@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <nav class="navbar navbar-expand-md navbar-dark bg-primary">
+    <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            </li>
+            <li>
+                <a class="nav-link">The CityLibrary ::: a CS418 WebApp Project<span class="sup">&reg;</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="about.html" >| About Us</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="books.html">| book</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="virtualtour.html">| virtual</a>
+            </li>
+        </ul>
+    </div>
+    <div class="mx-auto order-0">
+        <a class="navbar-brand mx-auto" href="#">Welcome, Guest</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+    </div>
+</nav>
+
+    
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+    integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+            
+            
+        </div>
+    </nav>
+</di>
+<!--- This the navigation bar end -->
+
+<!--- Message Display div after we add new book  -->
+<div  id="display_Message"  style="margin: 55px;">  </div>
+
+<h3>New Book Form</h3>
+
+
+<div class="container"> 
+    <form id="formReset">
+        <fieldset>
+            <span>* required form fields</span>
+            <input type="hidden" name="bookId" value="" />
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="container">
+                        <label for="title">*Book Title</label>
+                        <input type="text" name="" id="title" class="form-control" value="" 
+                            placeholder="Enter Book title" required>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+           
+                <div class="col-md-6">
+                    <div class="container">
+                        <label for="title">*ISBN</label>
+                        <input type="text" name="" id="isbn" class="form-control" value="" required>
+                    </div>
+                </div>
+            
+                <div class="col-md-6">
+                    <div class="container">
+                        <label for="title">*Overdue Fee per day</label>
+                        <input type="text" name="" id="overdue" class="form-control" value="" 
+                            placeholder="0.00" required>
+                    </div>
+                </div>
+         
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container">
+                        <label for="title">*Publisher</label>
+                        <input type="text" name="" id="publisher" class="form-control" value="" required>
+                    </div>
+                </div>
+          
+                <div class="col-md-6">
+                    <div class="container">
+                        <label for="title">*Date Published</label>
+                        <input type="text" name="" id="published_date" class="form-control" value="" 
+                            placeholder="yyyy-mm-dd" required>
+                    </div>
+                </div>
+                
+            </div>
+
+        </fieldset>
+</div>
+<div class="row">
+    <div class="container" style="padding: 10px ">
+        <div class="container" style="padding-block: 10px">
+            <button style="float:left" type="reset" class="btn btn-danger">Reset</button>
+        </div>
+        <div>
+            <button id="bookSave" style="float:right" type="button" class="btn btn-success"> Save Book</button>
+        </div>
+    </div>
+</div>
+</form>
+
+</div>
+</body>
+
+
+  
+      <div class="container">
+        <footer class="footer">
+                <span>Y.Biniyam</span>
+                <span style="float:right">February 2021</span>
+        </footer>
+      </div>
+</html>
