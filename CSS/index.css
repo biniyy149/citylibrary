@@ -1,23 +1,6 @@
-#main{
-    padding:20px 0px;
-  }
-  footer{
+.footer {
   position: fixed;
-  left: 0;
   bottom: 0;
-  width: 100%;
-  background-color: rgb(26, 211, 180);
-  color: rgba(255, 255, 255, 0.589);
-  }
-  .hidden{
-    display:none;
-  }
-  #booksTable {
-    margin-top:10px;
-  }
-  #booksTable td{
-    vertical-align: middle;
-  }
-  nav a:hover{
-    cursor: pointer;
-  }
+  width: 100%
+
+}
