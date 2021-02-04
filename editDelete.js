@@ -5,10 +5,10 @@ window.onload = functionLoad;
  */
 function functionLoad() {
 
-    //get the bookId URL 
-    //const params = new URLSearchParams(window.location.search);
-    //const bookId = params.get("bookId");
-    //document.getElementById('bookSave').addEventListener('click', sendEditedBook);
+    
+    const params = new URLSearchParams(window.location.search);
+    const bookId = params.get("bookId");
+    document.getElementById('bookSave').addEventListener('click', sendEditedBook);
 
 
     /**
